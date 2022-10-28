@@ -1,0 +1,60 @@
+.slider h3, 
+.slider h5, 
+.client h3 
+{
+    text-shadow: 2px 2px 3px rgba(0,0,0, .5);
+}
+
+.parallax-container {
+    height: 300px;
+}
+
+.parallax img{
+    filter: grayscale(1);
+    opacity: .5 !important;
+}
+
+.client img{
+    /* max-height: 20%; */
+    max-width: 80px;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0.5));
+}
+
+section {
+    margin: 100px 0;
+}
+
+footer {
+    opacity: .6;
+}
+
+footer ul li {
+    display: inline;
+    margin: 3px;
+}
+
+footer ul li a{
+    font-size: 20px;
+    opacity: .7;
+}
+
+footer ul li a:hover{
+    opacity: 1;
+}
+.sidenav {
+    opacity: .75;
+}
+
+.sidenav li {
+    padding: 5px;
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 15%;
+    background-color: blueviolet;
+    border-radius: 25px;
+}
+
+.sidenav li a {
+    font-size: 1.5em;
+    color: antiquewhite;
+}
